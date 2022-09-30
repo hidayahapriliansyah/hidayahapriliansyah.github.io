@@ -345,7 +345,7 @@ main .image img:hover {
   margin: 30px 0;
 }
 
-form input,
+.form input,
 textarea {
   display: block;
   width: 350px;
@@ -359,23 +359,23 @@ textarea {
   color: #dff6ff;
 }
 
-form input:hover,
+.form input:hover,
 textarea:hover {
   transition: 0.3s;
   background-color: #234357;
 }
 
-form input:focus,
+.form input:focus,
 textarea:focus {
   outline: none;
   background-color: #234357;
 }
-form textarea {
+.form textarea {
   height: 135px;
   padding-top: 10px;
 }
 
-form button.button-message {
+.form button.button-message {
   width: 100px;
   height: 45px;
   border-radius: 1em;
@@ -387,7 +387,7 @@ form button.button-message {
   margin-top: 5px;
 }
 
-form button.button-message:hover {
+.form button.button-message:hover {
   background-color: #06283d;
   transition: 0.5s;
 }
